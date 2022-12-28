@@ -1,3 +1,6 @@
+import { NosotrosModule } from './nosotros/nosotros.module';
+import { InicioModule } from './inicio/inicio.module';
+import { UsuariosModule } from './usuarios/usuarios.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +13,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    UsuariosModule,
+    InicioModule,
+    NosotrosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
