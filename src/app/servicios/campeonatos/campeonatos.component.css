@@ -1,0 +1,29 @@
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.servicios{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card-header{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card-body img{
+    width: 32rem;
+    height: 25rem;
+}
